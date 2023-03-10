@@ -1,4 +1,6 @@
-let arrayGenerato = [];
+
+
+/* let arrayGenerato = [];
 
 
 funzione()
@@ -14,7 +16,7 @@ function funzione() {
 
     let arraySelezionato = "";
     arraySelezionato = arrayGenerato.filter((citta) => {
-        if (citta) {
+        if (citta >) {
             console.log("arrayselezionato " + arraySelezionato);
             return true;
             
@@ -27,5 +29,31 @@ function funzione() {
 
 
     return arrayGenerato;
-}
+} */
 
+
+
+
+
+let cittaScelte = ["Roma", "Milano", "Venezia", "Bari"];
+
+const numeroMin = parseInt(prompt("inserisci un numero partendo da 0"));
+const numeroMax = parseInt(prompt("inserisci il numero minore di 4"));
+
+
+
+
+
+
+
+cittaScelte.forEach((element, index) => {
+
+    numeroScelto(cittaScelte, numeroMin, numeroMax); 
+});
+
+
+function numeroScelto(cittaScelte, min, max) {
+    
+    cittaScelte = [];
+    console.log(cittaScelte);
+}

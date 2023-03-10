@@ -47,14 +47,10 @@ const numeroMax = parseInt(prompt("inserisci il numero minore di 4"));
 
 cittaScelte.forEach((element, index) => {
     if ((index >= numeroMin) && (index <= numeroMax)) {
-        console.log(element);
+        
+        let cittaGenerate = element;
+        console.log(cittaGenerate);
     }
 });
 
 
-function numeroScelto(cittaScelte, min, max) {
-    
-    let cittaGenerate = [element.min];
-    console.log(cittaGenerate);
-    return cittaGenerate;
-}

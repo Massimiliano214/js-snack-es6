@@ -25,12 +25,14 @@ let nomiFalli = [
     }
 ];
 
+
 listaSquad.forEach((element, index) => {
 
     element["punti fatti"] = randomNumber(1, 30);
     element["falli subiti"] = randomNumber(1, 30);
 
     console.log(element);
+
 });
 
 
@@ -49,4 +51,6 @@ for (let i = 0; i < listaSquad.length; i++) {
     }
     console.log(nomiFalli);
 }
+
+
 

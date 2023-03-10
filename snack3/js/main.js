@@ -40,7 +40,7 @@ const cittaScelte = ["Roma", "Milano", "Venezia", "Bari"];
 const numeroMin = parseInt(prompt("inserisci un numero partendo da 0"));
 const numeroMax = parseInt(prompt("inserisci il numero minore di 4"));
 
-
+let cittaGenerate = [];
 
 
 
@@ -48,7 +48,7 @@ const numeroMax = parseInt(prompt("inserisci il numero minore di 4"));
 cittaScelte.forEach((element, index) => {
     if ((index >= numeroMin) && (index <= numeroMax)) {
         
-        let cittaGenerate = element;
+        cittaGenerate = [element];
         console.log(cittaGenerate);
     }
 });

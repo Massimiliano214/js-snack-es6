@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    background-color: orange;
+    font-size: 2rem;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 25vh;
+}

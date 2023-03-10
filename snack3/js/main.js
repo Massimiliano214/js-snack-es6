@@ -35,7 +35,7 @@ function funzione() {
 
 
 
-let cittaScelte = ["Roma", "Milano", "Venezia", "Bari"];
+const cittaScelte = ["Roma", "Milano", "Venezia", "Bari"];
 
 const numeroMin = parseInt(prompt("inserisci un numero partendo da 0"));
 const numeroMax = parseInt(prompt("inserisci il numero minore di 4"));
@@ -45,15 +45,16 @@ const numeroMax = parseInt(prompt("inserisci il numero minore di 4"));
 
 
 
-
 cittaScelte.forEach((element, index) => {
-
-    numeroScelto(cittaScelte, numeroMin, numeroMax); 
+    if ((element >= numeroMin) && (element <= numeroMax)) {
+        console.log(element);
+    }
 });
 
 
 function numeroScelto(cittaScelte, min, max) {
     
-    cittaScelte = [];
-    console.log(cittaScelte);
+    let cittaGenerate = [element.min];
+    console.log(cittaGenerate);
+    return cittaGenerate;
 }

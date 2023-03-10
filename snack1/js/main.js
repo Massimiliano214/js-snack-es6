@@ -35,14 +35,3 @@ for (let i = 0; i < listaBici.length; i++) {
     }
     
 }
-
-/*
-if (peso[i] > peso) {
-        peso = peso[i];
-        containerDom.innerHTML = 
-        `
-        la bici ${nome} è la più leggera; ${peso} kg.
-        `;
-        console.log("la bici pesa" + peso + nome);
-    }
-    */

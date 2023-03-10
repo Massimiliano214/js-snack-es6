@@ -46,7 +46,7 @@ const numeroMax = parseInt(prompt("inserisci il numero minore di 4"));
 
 
 cittaScelte.forEach((element, index) => {
-    if ((element >= numeroMin) && (element <= numeroMax)) {
+    if ((index >= numeroMin) && (index <= numeroMax)) {
         console.log(element);
     }
 });
